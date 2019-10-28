@@ -5,21 +5,21 @@
 #Author : Dan Mititi
 az creat --resource-group default --name myVM --image UbuntuLTS --admin-username azureadmin -- admin-password adminazure ----generate-ssh-keys
 if ($? -ne 0); then
- echo "VM was created!"
+ echo "Cannot been created VM!"
  exit 1
 
-elif 
- echo"ERROR!"
+else 
+ echo"VM was created with succes!"
  exit 1
 
  fi
 az vm open-port --port 80 --resource-group default --name myVM
 
 if ($? -ne 0); then
- echo"Port was open, enjoy"
+ echo "Port cannot been opened"
  exit 1
 
-elif 
- echo"Port cannnot been open"
+else 
+ echo "Port was open, enjoy"
  exit 1
  fi 
