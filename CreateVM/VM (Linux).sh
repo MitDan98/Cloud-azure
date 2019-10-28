@@ -9,7 +9,7 @@ if ($? -ne 0); then
  exit 1
 
 else 
- echo"VM was created with succes!"
+ echo "VM was created with succes!"
  exit 1
 
  fi
