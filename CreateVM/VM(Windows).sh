@@ -9,17 +9,17 @@ if ($? -ne 0); then
  exit 1
 
 else 
- echo"VM was created with succes!"
+ echo "VM was created with succes!"
  exit 1
 
  fi
 az vm open-port --port 80 --resource-group default --name myVM
 
 if ($? -ne 0); then
- echo"Port cannnot been open"
+ echo "Port cannnot been open"
  exit 1
 
 else 
- echo"Port was opened with succes"
+ echo "Port was opened with succes"
  exit 1
  fi 
