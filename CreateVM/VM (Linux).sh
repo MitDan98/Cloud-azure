@@ -10,9 +10,8 @@ if ($? -ne 0); then
 
 else 
  echo "VM was created with succes!"
- exit 1
-
- fi
+fi
+ 
 az vm open-port --port 80 --resource-group default --name myVM
 
 if ($? -ne 0); then
