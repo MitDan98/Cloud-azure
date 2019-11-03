@@ -21,5 +21,4 @@ if ($? -ne 0); then
 
 else 
  echo "Port was opened with succes"
- exit 1
- fi 
+fi 
