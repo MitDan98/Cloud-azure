@@ -21,5 +21,4 @@ if ($? -ne 0); then
 
 else 
  echo "Port was open, enjoy"
- exit 1
- fi 
+fi 
