@@ -1,3 +1,4 @@
 # Cloud-azure
-Create VM in azure
-soon you will see script encrypt and anthor things 
+VM
+KEY-ENCRYPT
+RESOURCE_GROUP
