@@ -1,4 +1,3 @@
 # Cloud-azure
 VM
-KEY-ENCRYPT
-RESOURCE_GROUP
+
