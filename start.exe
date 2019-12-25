@@ -1,21 +1,21 @@
 #!/bin/bash
 #exe
 #NOTE : IS JUST A TEST
-$us = $?
 sudo chmod 111 VMLinux.sh
-if [ $us -ne 0 ] then ;
+us=$?
+if [ $us -ne 0 ]; then
        echo "Sorry you don t have permition ..."
 else
        echo "Succes..."
 fi
 sudo chmod 111 VM(Windows).sh
-if [ $us -ne 0 ] then ;
+if [ $us -ne 0 ]; then
        echo "Sorry you don t have permition..."
 else 
        echo "Succes..."
 fi
 sudo chmod 111 key.sh
-if [ $us -ne 0 ] then ;
+if [ $us -ne 0 ]; then
        echo "Sorry you don t have permition"
 else
        echo "Succes..."
