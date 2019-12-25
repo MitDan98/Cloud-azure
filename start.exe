@@ -8,7 +8,7 @@ if [ $us -ne 0 ]; then
 else
        echo "Succes..."
 fi
-sudo chmod 111 VM(Windows).sh
+sudo chmod 111 VMWindows.sh
 if [ $us -ne 0 ]; then
        echo "Sorry you don t have permition..."
 else 
